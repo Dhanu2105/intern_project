@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WIFLEN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container" id="home">
+
+    <!-- Company Logo (1st Image) -->
+    <a class="navbar-brand d-flex align-items-center" href="#home">
+      <img src="images/company_logo.png" alt="Company Logo" class="nav-logo">
+    </a>
+
+    <!-- Mobile Toggle Button -->
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu Options (2nd Image Content) -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#core-and-students">Members</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#fundings">Fundings</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#datasets">Datasets</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#publications">Publications</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+<main class="flex-fill">
+    <section class="py-5 text-center">
+        <div class="container">
+            <h1 class="fw-bold">
+                Wireless Flexible Electric 
+            <span class="text-primary">Breathing</span> 
+                Assessment Monitor
+            </h1>
+        </div>
+    </section>
+
+    <section id="about" class="about-section py-5">
+  <div class="container">
+
+    <h2 class="section-title text-center mb-5">About</h2>
+
+    <div class="row align-items-center">
+
+      <!-- Text -->
+      <div class="col-lg-7">
+        <h1 class="about-heading">Respiratory Signals Evaluation</h1>
+
+        <p class="about-text">
+          This project aims at developing a <span>wireless nasal mask</span> that effectively monitors
+          breathing patterns by measuring moisture from your breath.
+
+          This mask identifies four main breathing patterns:
+          <span>normal</span>, <span>deep</span>, <span>rapid</span>, and
+          <span>shallow</span>.
+
+          It works by collecting data through sensors, cleaning the data,
+          and organizing it for analysis.
+
+          The project uses advanced techniques like
+          <span>1D-CNN</span>, <span>LSTM</span>, and <span>SVM</span>.
+
+          System performance is evaluated using
+          <span>Accuracy</span> and <span>MCC</span>.
+
+          This mask can help healthcare professionals detect respiratory
+          problems early.
+        </p>
+      </div>
+
+      <!-- Video -->
+      <div class="col-lg-5 text-center">
+        <div class="video-card">
+          <video controls>
+            <source src="CurrentPrototype.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Combined Section for Team Members and Students -->
+        <section id="core-and-students">
+          <div class="container">
+            <h2>CORE MEMBERS</h2>
+            <p> Meet the core memebrs of the project</p>
+            <!-- Team Members Carousel -->
+            <div id="teamCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#teamCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#teamCarousel" data-slide-to="1"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <!-- First slide: First 3 team members -->
+                    <div class="item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="team-card">
+                                    <div class="team-img">
+                                        <img src="images/Image 19-09-24 at 5.29 PM.jpg" alt="Dr N. Sriram">
+                                    </div>
+                                    <div class="team-details">
+                                        <h3>Dr N. Sriram
+                                            <a href="https://www.linkedin.com/in/nithin-m-kannal-74213a263/"
+                                                target="_blank"></a>
+                                            <img src="images/linkedin-okay.png" alt="Nithin's Logo"
+                                                class="student-logo">
+                                            </a>
+                                        </h3>
+                                        <p>Principal investigator</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="team-card">
+                                    <div class="team-img">
+                                        <img src="images/IMG_9546.jpg" alt="Mrs Purnima BR">
+                                    </div>
+                                    <div class="team-details">
+                                        <h3>Mrs Purnima BR
+                                            <a href="https://www.linkedin.com/in/nithin-m-kannal-74213a263/"
+                                                target="_blank"></a>
+                                            <img src="images/linkedin-okay.png" alt="Nithin's Logo"
+                                                class="student-logo">
+                                            </a>
+                                        </h3>
+                                        <p>Team Member</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="team-card">
+                                    <div class="team-img">
+                                        <img src="images/IMG_9549.jpg" alt="Dr Gayathri Devi">
+                                    </div>
+                                    <div class="team-details">
+                                        <h3>Dr. Gayathri Devi
+                                            <a href="https://www.linkedin.com/in/nithin-m-kannal-74213a263/"
+                                                target="_blank"></a>
+                                            <img src="images/linkedin-okay.png" alt="Nithin's Logo"
+                                                class="student-logo">
+                                            </a>
+                                        </h3>
+                                        <p>Team Doctor</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Second slide: Next 3 team members -->
+                    <div class="item">
+                        <div class="row">
+
+
+                            <div class="col-md-6">
+                                <div class="team-card">
+                                    <div class="team-img">
+                                        <img src="images/IMG_9550.jpg" alt="Dr Subramanian K R V">
+                                    </div>
+                                    <div class="team-details">
+                                        <h3>Dr Subramanian K R V
+                                            <a href="https://www.linkedin.com/in/nithin-m-kannal-74213a263/"
+                                                target="_blank"></a>
+                                            <img src="images/linkedin-okay.png" alt="Nithin's Logo"
+                                                class="student-logo">
+                                            </a>
+                                        </h3>
+                                        <p>Co-Investigator</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="team-card">
+                                    <div class="team-img">
+                                        <img src="images/IMG_9551.jpg" alt="Kiran D">
+                                    </div>
+                                    <div class="team-details">
+                                        <h3>Kiran D
+                                            <a href="https://www.linkedin.com/in/nithin-m-kannal-74213a263/"
+                                                target="_blank"></a>
+                                            <img src="images/linkedin-okay.png" alt="Nithin's Logo"
+                                                class="student-logo">
+                                            </a>
+                                        </h3>
+                                        <p>JRF</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls for Team Members -->
+                <a class="left carousel-control" href="#teamCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#teamCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <h2 id="students-heading">Students</h2>
+            <p>Our students from different disciplines gather here to contribute to the research.</p>
+
+            <div class="row students-row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="student-card">
+                        <div class="student-img">
+                            <img src="images/mithali.png" alt="Mithali" class="img-responsive">
+                        </div>
+                        <div class="student-details">
+                            <h3>Mithali. S. Channal
+                                <a href="https://www.linkedin.com/in/mithali-s-channal-652535299/" target="_blank">
+                                    <img src="images/linkedin-okay.png" alt="Mithali's LinkedIn" class="student-logo">
+                                </a>
+                            </h3>
+                            <p>B.E. in Medical Electronics<br>MSRIT</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="student-card">
+                        <div class="student-img">
+                            <img src="images/dhavala.jpg" alt="Dhavala" class="img-responsive">
+                        </div>
+                        <div class="student-details">
+                            <h3>Dhavala. T. S
+                                <a href="https://www.linkedin.com/in/dhavalats/" target="_blank">
+                                    <img src="images/linkedin-okay.png" alt="Dhavala's LinkedIn" class="student-logo">
+                                </a>
+                            </h3>
+                            <p>B.E. in AI &amp; DS<br>MSRIT</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="student-card">
+                        <div class="student-img">
+                            <img src="images/amogh.png" alt="Amogh" class="img-responsive">
+                        </div>
+                        <div class="student-details">
+                            <h3>Amogh Shastry
+                                <a href="https://www.linkedin.com/in/amogh-shastry-95065a277/" target="_blank">
+                                    <img src="images/linkedin-okay.png" alt="Amogh's LinkedIn" class="student-logo">
+                                </a>
+                            </h3>
+                            <p>B.E. in Medical Electronics<br>MSRIT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </a>
+            </div>
+            </div>
+        </section>
+
+        <section id="publications">
+            <div class="pub-container">
+                <h3 class="pub-title">PUBLICATIONS</h3>
+                <p></p>
+                <div class="publication-grid">
+                    <div class="publication-item">
+                        <h4 class="paper-title"><span class="serial-number">Paper</span></h4>
+                        <p class="pub-journal"><strong>Journal/Conference:</strong></p>
+                        <p class="pub-status"><strong>Status</strong></p>
+                    </div>
+                    <div class="publication-item">
+                        <h4 class="paper-title"><span class="serial-number">1.</span> Performance Evaluation Of Wearable
+                            Nasal Sensor</h4>
+                        <p class="pub-journal"> IEEE TENCON 2024</p>
+                        <p class="pub-status"><strong>Accepted</strong> <img src="images/green-tick-edit.jpg"
+                                alt="green-tick" class="student-logo"></p>
+
+                    </div>
+                    <div class="publication-item">
+                        <h4 class="paper-title"><span class="serial-number">2.</span> AN INTEGRATED WEARABLE NASAL
+                            HUMIDITY SENSOR</h4>
+                        <p class="pub-journal">International Conference on Biomedical Engineering & Health Sciences (2nd
+                            ICBMEHS)</p>
+                        <p class="pub-status"><strong>Accepted</strong> <img src="images/green-tick-edit.jpg"
+                                alt="green-tick" class="student-logo"></p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="publications">
+  <div class="container">
+
+    <p class="section-subtitle text-center">
+      Research papers published from this project
+    </p>
+
+    <div class="publication-list">
+
+      <!-- Publication 1 -->
+      <div class="publication-card">
+        <h4>
+          <span class="paper-number">1.</span>
+          Performance Evaluation Of Wearable Nasal Sensor
+        </h4>
+
+        <p class="journal">
+          <strong>Conference:</strong> IEEE TENCON 2024
+        </p>
+
+        <p class="status accepted">
+          Accepted
+          <img src="images/green-tick-edit.jpg" alt="accepted">
+        </p>
+      </div>
+
+      <!-- Publication 2 -->
+      <div class="publication-card">
+        <h4>
+          <span class="paper-number">2.</span>
+          An Integrated Wearable Nasal Humidity Sensor
+        </h4>
+
+        <p class="journal">
+          <strong>Conference:</strong> International Conference on Biomedical Engineering & Health Sciences (ICBMEHS)
+        </p>
+
+        <p class="status accepted">
+          Accepted
+          <img src="images/green-tick-edit.jpg" alt="accepted">
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="projects-section">
+<div class="container">
+            <div class="section-header">
+                <h2>Projects</h2>
+
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/project1.jpeg" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-info">
+                            <div class="category-badge">FADEN-CNN</div>
+                            <span class="author">Model based breath pattern recognition</span>
+                        </div>
+                        <h3>The Wireless Flexible Electronic Nasal Sensor</h3>
+                        <p>The Wireless Flexible Electronic Nasal (WIFLEN) sensor, combined with a Fast Dense CNN
+                            (FASDEN-CNN), captures temperature, pressure, and humidity at the nostrils to recognize
+                            breathing patterns.
+                            Data was collected during various activities and cleaned to remove outliers. The process
+                            included feature extraction, statistical analysis, and developing a deep AI model for
+                            classification.
+                            Inhalation and exhalation points were identified to calculate respiratory metrics, validated
+                            against a clinical device. Notable differences in nostril measurements were found across
+                            activities,
+                            and Hilbert transform was used to create 2D spectrograms for binary classification with the
+                            FASDEN-CNN.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/project2-Photoroom.jpeg" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-info">
+                            <div class="category-badge">EDRS-LSTM</div>
+                            <span class="author">Performance Evaluation of Nasal Sensor</span>
+                        </div>
+                        <h3>Respiratory Signal Assessment Framework</h3>
+                        <p>The framework for collecting and assessing respiratory signals involves a wearable nasal mask
+                            that captures temperature, pressure, and humidity variations from both nostrils during
+                            normal breathing,
+                            deep breathing, and walking. Unlike traditional thoracic sensors, this method uses a nasal
+                            sensor for data recording. The collected signals were cleansed and segmented using a Hamming
+                            window of 10 seconds
+                            with 50% overlap. The normalized segments were then analyzed using the EDRS-LSTM deep
+                            learning model. The framework's performance was evaluated based on precision, recall, ROC,
+                            accuracy,
+                            and F1 score, focusing on the three breathing conditions.</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/project3.jpeg" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-info">
+                            <div class="category-badge">HUMIDITY SENSOR</div>
+                            <span class="author">Continuous respiratory assessment</span>
+                        </div>
+                        <h3>Evaluation Framework for Respiratory Signals</h3>
+                        <p>The evaluation framework for respiratory signals focuses on four breathing patterns: normal,
+                            deep, rapid, and shallow breathing during recovery. A wearable nasal mask with humidity
+                            sensors
+                            detects fluctuations from both nostrils. The raw data undergoes baseline drift removal and
+                            outlier elimination using Inter Quartile Range (IQR) techniques. To address the
+                            non-stationary
+                            nature of the signals, the data is normalized and segmented with 80% overlap. An ensemble
+                            model combining 1D-CNN, LSTM, and SVM classifiers is used for analysis and categorization.
+                            The framework's performance is assessed using accuracy, F1 score, and Matthews Correlation
+                            Coefficient (MCC) values.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="fundings">
+  <div class="container">
+
+    <div class="section-header">
+      <h2>Fundings</h2>
+      <p>This project is supported by research grants aimed at improving healthcare technology.</p>
+    </div>
+
+    <div class="funding-grid">
+
+      <!-- Funding 1 -->
+      <div class="funding-card">
+        <h3>IITI Drishti Funding</h3>
+
+        <p>
+          The Technology Business Incubator (TBI) at IITI DRISHTI CPS Foundation
+          supports startups and early stage entrepreneurs to commercialize
+          innovative technology products. The incubator promotes a sustainable
+          entrepreneurial ecosystem through financial assistance and mentorship.
+        </p>
+
+        <a href="Decision letter-IITI-823254.pdf" target="_blank" class="fund-btn">
+          View Decision Letter
+        </a>
+      </div>
+
+      <!-- Funding 2 -->
+      <div class="funding-card">
+        <h3>MSRIT Seed Funding</h3>
+
+        <p>
+          The project received a seed funding grant of ₹5,65,000 from
+          MS Ramaiah Institute of Technology during 2021–2022
+          to support research and development activities.
+        </p>
+
+        <a href="Approval Letter_SeedFunding.pdf" target="_blank" class="fund-btn">
+          View Approval Letter
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="datasets">
+  <div class="container">
+
+    <div class="section-header">
+      <h2>Datasets</h2>
+      <p>Datasets collected for respiratory signal research and validation.</p>
+    </div>
+
+    <div class="dataset-grid">
+
+      <!-- Dataset Info -->
+      <div class="dataset-card">
+        <h3>Volunteer Data Acquisition</h3>
+
+        <ul class="dataset-list">
+          <li><strong>MSRIT</strong> – around 50 datasets</li>
+          <li><strong>Atmabodh Yoga Centre</strong> – around 102 datasets</li>
+        </ul>
+
+        <p class="dataset-note">
+          For more information about the dataset, please contact us via email.
+        </p>
+      </div>
+
+      <!-- Video -->
+      <div class="dataset-card video-card">
+        <h3>BIOPAC Setup for Validation</h3>
+
+        <video controls>
+          <source src="volunteerDataAcq.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+</main>
+<footer class="bg-light text-dark pt-5 pb-3 mt-5 border-top">
+  <div class="container">
+
+    <div class="row">
+
+      <!-- Contact Section -->
+      <div class="col-md-6">
+        <h3 class="fw-bold mb-3">Contact Us</h3>
+        <p>Want to collaborate or learn more? Reach out to us via email or phone.</p>
+
+        <div class="d-flex align-items-center mb-3">
+          <i class="bi bi-envelope-fill me-2"></i>
+          <div>
+            <h5 class="mb-1">Mail Us Here</h5>
+            <p class="mb-0">admin00@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center">
+          <i class="bi bi-telephone-fill me-2"></i>
+          <div>
+            <h5 class="mb-1">Call Us</h5>
+            <p class="mb-0">98xxx67xxx</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Line -->
+    <hr class="my-4">
+
+    <div class="text-center">
+      <p class="mb-0">© WIFLEN | All rights reserved.</p>
+    </div>
+
+  </div>
+</footer class="mt-auto bg-light text-center py-3">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

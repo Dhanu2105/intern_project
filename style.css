@@ -1,0 +1,597 @@
+.nav-logo {
+    height: 75px;   /* Adjust size */
+    width: auto;
+    object-fit: contain;
+}
+.navbar {
+    background: linear-gradient(to right, #E6F2F8, #EAF7F1);
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+footer {
+  background: linear-gradient(to right, #E6F2F8, #EAF7F1);
+}
+
+section {
+  background: linear-gradient(to right, #E6F2F8, #EAF7F1);
+}
+
+/* ABOUT SECTION */
+
+.about-section{
+    background:#f8f9fa;
+}
+
+.section-title{
+    font-weight:700;
+    font-size:32px;
+}
+
+.about-heading{
+    font-weight:700;
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.about-text{
+    font-size:18px;
+    line-height:1.8;
+    color:#555;
+}
+
+/* highlight keywords */
+
+.about-text span{
+    color:#0d6efd;
+    font-weight:600;
+}
+
+/* video styling */
+
+.video-card{
+    background:white;
+    padding:15px;
+    border-radius:12px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+.video-card video{
+    width:100%;
+    border-radius:8px;
+}
+
+/* spacing */
+
+#about{
+    margin-top:60px;
+}
+
+/* ===============================
+   TEAM / CORE MEMBERS SECTION
+================================ */
+
+#core-and-students{
+    padding:80px 0;
+    background:#f8f9fa;
+    text-align:center;
+}
+
+#core-and-students h2{
+    font-weight:700;
+    font-size:34px;
+    margin-bottom:10px;
+}
+
+#core-and-students p{
+    color:#666;
+    margin-bottom:40px;
+}
+
+
+/* TEAM CARD */
+
+.team-card{
+    background:#fff;
+    border-radius:12px;
+    padding:25px 20px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.team-card:hover{
+    transform:translateY(-8px);
+}
+
+/* IMAGE */
+
+.team-img img{
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    border-radius:50%;
+    margin-bottom:15px;
+    border:4px solid #0d6efd;
+}
+
+/* DETAILS */
+
+.team-details h3{
+    font-size:20px;
+    font-weight:600;
+}
+
+.team-details p{
+    color:#777;
+}
+
+
+/* ===============================
+   STUDENTS SECTION
+================================ */
+
+#students-heading{
+    margin-top:80px;
+    font-weight:700;
+    font-size:34px;
+}
+
+/* STUDENT CARD */
+
+.student-card{
+    background:#fff;
+    border-radius:12px;
+    padding:25px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.student-card:hover{
+    transform:translateY(-8px);
+}
+
+.student-img img{
+    width:110px;
+    height:110px;
+    object-fit:cover;
+    border-radius:50%;
+    margin-bottom:15px;
+    border:4px solid #0d6efd;
+}
+
+.student-details h3{
+    font-size:18px;
+    font-weight:600;
+}
+
+.student-details p{
+    color:#666;
+}
+
+/* linkedin logo */
+
+.student-logo{
+    width:18px;
+    margin-left:5px;
+}
+
+
+/* ===============================
+   PUBLICATIONS SECTION
+================================ */
+
+#publications{
+    padding:80px 0;
+}
+
+.pub-container{
+    max-width:1000px;
+    margin:auto;
+}
+
+.pub-title{
+    text-align:center;
+    font-weight:700;
+    font-size:32px;
+    margin-bottom:50px;
+}
+
+/* GRID */
+
+.publication-grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+/* CARD */
+
+.publication-item{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+}
+
+.paper-title{
+    font-weight:600;
+}
+
+.pub-journal{
+    color:#555;
+}
+
+.pub-status{
+    margin-top:10px;
+}
+
+.pub-status strong{
+    color:green;
+}
+
+/* ========================
+   PUBLICATIONS SECTION
+======================== */
+
+#publications{
+    padding:80px 0;
+    background:#f8f9fa;
+}
+
+.section-title{
+    font-weight:700;
+    font-size:36px;
+}
+
+.section-subtitle{
+    color:#666;
+    margin-bottom:50px;
+}
+
+
+/* LIST */
+
+.publication-list{
+    max-width:900px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+
+/* CARD */
+
+.publication-card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.publication-card:hover{
+    transform:translateY(-5px);
+}
+
+
+/* PAPER TITLE */
+
+.publication-card h4{
+    font-size:20px;
+    font-weight:600;
+    margin-bottom:10px;
+}
+
+.paper-number{
+    color:#0d6efd;
+    margin-right:6px;
+}
+
+
+/* JOURNAL */
+
+.journal{
+    color:#555;
+    margin-bottom:10px;
+}
+
+
+/* STATUS */
+
+.status{
+    font-weight:600;
+}
+
+.status img{
+    width:18px;
+    margin-left:6px;
+}
+
+.status.accepted{
+    color:green;
+}
+
+/* ======================
+   PROJECTS SECTION
+====================== */
+
+#projects-section{
+    padding:80px 0;
+    background:#ffffff;
+}
+
+/* HEADER */
+
+.section-header{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-header h2{
+    font-size:36px;
+    font-weight:700;
+}
+
+
+/* GRID */
+
+.projects-grid{
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+
+
+/* CARD */
+
+.project-card{
+    display:flex;
+    gap:30px;
+    background:#f8f9fa;
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-6px);
+}
+
+
+/* IMAGE */
+
+.project-img{
+    flex:0 0 320px;
+}
+
+.project-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+
+/* CONTENT */
+
+.project-content{
+    padding:30px;
+}
+
+.project-content h3{
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.project-content p{
+    color:#555;
+    line-height:1.7;
+}
+
+
+/* PROJECT INFO */
+
+.project-info{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:10px;
+}
+
+/* CATEGORY BADGE */
+
+.category-badge{
+    background:#0d6efd;
+    color:white;
+    font-size:12px;
+    padding:5px 10px;
+    border-radius:6px;
+    font-weight:600;
+}
+
+.author{
+    font-size:14px;
+    color:#666;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width:768px){
+
+.project-card{
+    flex-direction:column;
+}
+
+.project-img{
+    flex:none;
+    height:220px;
+}
+
+}
+
+/* =====================
+   FUNDING SECTION
+===================== */
+
+#fundings{
+    padding:80px 0;
+    background:#f8f9fa;
+}
+
+#fundings .section-header{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+#fundings h2{
+    font-size:36px;
+    font-weight:700;
+}
+
+#fundings p{
+    color:#666;
+}
+
+
+/* GRID */
+
+.funding-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(320px,1fr));
+    gap:30px;
+}
+
+
+/* CARD */
+
+.funding-card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.funding-card:hover{
+    transform:translateY(-6px);
+}
+
+.funding-card h3{
+    font-size:22px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.funding-card p{
+    line-height:1.7;
+}
+
+
+/* BUTTON */
+
+.fund-btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:8px 16px;
+    background:#0d6efd;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:14px;
+}
+
+.fund-btn:hover{
+    background:#0b5ed7;
+}
+
+/* ======================
+   DATASETS SECTION
+====================== */
+
+#datasets{
+    padding:80px 0;
+    background:#ffffff;
+}
+
+/* HEADER */
+
+#datasets .section-header{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+#datasets h2{
+    font-size:36px;
+    font-weight:700;
+}
+
+#datasets p{
+    color:#666;
+}
+
+
+/* GRID */
+
+.dataset-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+
+/* CARD */
+
+.dataset-card{
+    background:#f8f9fa;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.dataset-card h3{
+    font-size:22px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+
+/* LIST */
+
+.dataset-list{
+    padding-left:18px;
+    margin-bottom:15px;
+}
+
+.dataset-list li{
+    margin-bottom:6px;
+}
+
+
+/* NOTE */
+
+.dataset-note{
+    font-size:14px;
+    color:#777;
+}
+
+
+/* VIDEO */
+
+.video-card video{
+    width:100%;
+    border-radius:8px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width:768px){
+
+.dataset-grid{
+    grid-template-columns:1fr;
+}
+
+}
