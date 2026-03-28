@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WIFLEN – Home</title>
-    <meta name="description" content="WIFLEN – Wireless Flexible Electronic Breathing Assessment Monitor for respiratory signal evaluation.">
+    <title>WIFLEN – Datasets</title>
+    <meta name="description" content="Respiratory signal datasets collected for WIFLEN research and validation.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
@@ -27,7 +27,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="members.html">Members</a>
@@ -39,7 +39,7 @@
               <a class="nav-link" href="fundings.html">Fundings</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="datasets.html">Datasets</a>
+              <a class="nav-link active" href="datasets.html">Datasets</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="publications.html">Publications</a>
@@ -55,58 +55,37 @@
     <!-- ========== MAIN CONTENT ========== -->
     <main class="flex-fill">
 
-        <!-- HERO SECTION -->
-        <section class="hero-section py-5 text-center">
-            <div class="container">
-                <h1 class="fw-bold display-4">
-                    Wireless Flexible Electric
-                    <span class="text-primary">Breathing</span>
-                    Assessment Monitor
-                </h1>
-                <p class="hero-subtitle mt-3">Advancing respiratory health through wearable nasal sensor technology.</p>
-            </div>
-        </section>
-
-        <!-- ABOUT SECTION -->
-        <section id="about" class="about-section py-5">
+        <!-- DATASETS SECTION -->
+        <section id="datasets">
           <div class="container">
-            <h2 class="section-title text-center mb-5">About</h2>
+            <div class="section-header">
+              <h2>Datasets</h2>
+              <p>Datasets collected for respiratory signal research and validation.</p>
+            </div>
 
-            <div class="row align-items-center g-5">
-              <!-- Text -->
-              <div class="col-lg-7">
-                <h3 class="about-heading">Respiratory Signals Evaluation</h3>
+            <div class="dataset-grid">
 
-                <p class="about-text">
-                  This project aims at developing a <span>wireless nasal mask</span> that effectively monitors
-                  breathing patterns by measuring moisture from your breath.
-
-                  This mask identifies four main breathing patterns:
-                  <span>normal</span>, <span>deep</span>, <span>rapid</span>, and
-                  <span>shallow</span>.
-
-                  It works by collecting data through sensors, cleaning the data,
-                  and organizing it for analysis.
-
-                  The project uses advanced techniques like
-                  <span>1D-CNN</span>, <span>LSTM</span>, and <span>SVM</span>.
-
-                  System performance is evaluated using
-                  <span>Accuracy</span> and <span>MCC</span>.
-
-                  This mask can help healthcare professionals detect respiratory
-                  problems early.
+              <!-- Dataset Info -->
+              <div class="dataset-card">
+                <h3>Volunteer Data Acquisition</h3>
+                <ul class="dataset-list">
+                  <li><strong>MSRIT</strong> – around 50 datasets</li>
+                  <li><strong>Atmabodh Yoga Centre</strong> – around 102 datasets</li>
+                </ul>
+                <p class="dataset-note">
+                  For more information about the dataset, please contact us via email.
                 </p>
               </div>
 
               <!-- Video -->
-              <div class="col-lg-5 text-center">
-                <div class="video-card">
-                  <video controls>
-                    <source src="CurrentPrototype.mp4" type="video/mp4">
-                  </video>
-                </div>
+              <div class="dataset-card video-card">
+                <h3>BIOPAC Setup for Validation</h3>
+                <video controls>
+                  <source src="volunteerDataAcq.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
               </div>
+
             </div>
           </div>
         </section>
