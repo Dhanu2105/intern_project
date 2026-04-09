@@ -738,5 +738,36 @@ section {
 .pub-status strong {
     color: green;
 }
-
+.know 
+        {    
+            font-style: ariel; 
+            text-align: center; 
+            padding: 5px; 
+            width: 100%; 
+            color: rgb(0, 0, 0); 
+            background-color: rgb(255, 255, 255); 
+            opacity: 0.6; 
+            font-size: 15px; 
+            cursor: pointer;; 
+        } 
+        .know:hover 
+        { 
+            opacity: 1; 
+        } 
+        .mail
+        {    
+            font-style: ariel; 
+            text-align: center; 
+            padding: 5px; 
+            width: 100%; 
+            color: rgb(69, 36, 232); 
+            background-color: #ffffff; 
+            opacity: 0.6; 
+            font-size: 15px; 
+            cursor: pointer;; 
+        } 
+        .mail:hover 
+        { 
+            opacity: 1; 
+        } 
 
