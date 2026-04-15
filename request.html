@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dataset Request</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 50%;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 95%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #218838;
+        }
+
+        #message {
+            text-align: center;
+            color: green;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Dataset Request Form</h2>
+
+    <form onsubmit="handleSubmit(event)">
+        <!-- Email Section -->
+        <label>Email ID:</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <!-- Dataset Section -->
+        <label>Dataset Name:</label>
+        <input type="text" placeholder="Enter dataset name" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Message Display -->
+    <p id="message"></p>
+</div>
+
+<script>
+function handleSubmit(event) {
+    event.preventDefault(); 
+
+    let msg = document.getElementById("message");
+    let seconds = 3;
+
+    let interval = setInterval(function() {
+        msg.innerText = 
+        "Request has been submitted! Redirecting in " + seconds + " seconds...";
+
+        seconds--;
+
+        if (seconds < 0) {
+            clearInterval(interval);
+            window.close(); // 
+        }
+    }, 1000);
+}
+</script>
+
+</body>
+</html>

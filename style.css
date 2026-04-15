@@ -537,6 +537,18 @@ section {
 .funding-card p {
     line-height: 1.8;
 }
+.funding-logo {
+    display: flex;
+    align-items: center;   
+    gap: 15px;             
+}
+
+.fund-img img {
+    width: 60px;           
+    height: 60px;
+    border-radius: 0;   
+}
+
 
 /* Fund Button */
 
